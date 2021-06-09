@@ -1,0 +1,5 @@
+#!/bin/bash
+files=`ls DataCAE/sub-***/ses-T1/func/sub-***_ses-T1_task-**********_run-**_events.tsv`
+for f in $files; do
+./BIDSto3col.sh $f ${f::-4}_onset.txt;
+done

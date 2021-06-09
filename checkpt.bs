@@ -1,0 +1,5 @@
+#! /bin/bash
+anat_files=`ls sub-***/ses-T1/anat/sub-***_ses-T1_T1w.nii.gz`
+for f in $anat_files; do 
+fsleyes -ad $f;
+done

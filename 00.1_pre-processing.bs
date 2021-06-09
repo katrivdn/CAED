@@ -1,0 +1,4 @@
+# !/bin/bash
+files=`ls sub-***/ses-T1/anat/sub-***_ses-T1_T1w.nii.gz`
+for f in $files; do bet $f ${f::-7}_brain -R -g -0.05 -m ;
+done

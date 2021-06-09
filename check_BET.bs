@@ -1,0 +1,6 @@
+#! /bin/bash
+files=`ls sub-***/ses-T1/anat/sub-***_ses-T1_T1w_brain.nii.gz`
+for f in $files; do 
+fsleyes -ad ${f::-13}.nii.gz $f -cm hot;
+done
+
