@@ -7,6 +7,8 @@ source:
 Lytle, M. N., Prado, J., & Booth, J. R. (2020). A neuroimaging dataset of deductive reasoning in school-aged children. Data in Brief, 33, 106405.
 
 I analyzed the data by first creating onset files for all conditions, regardless of accuracy. 
+set-linear order files refer to data-analysis file for contrasting activation for set-inclusion that is higher to linear-order arguments.
+liner-set order files refer to data-analysis file for contrasting activation for linear-order that is higher to set-inclusion arguments.
 In a second analysis, I only looked at accurate trials.
 #-----------#
 Description of the files:
